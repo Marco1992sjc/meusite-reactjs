@@ -11,3 +11,9 @@ body {
 h1 {
   color: white;
 }
+
+body {
+  background-image: linear-gradient(to right, #9a5ed6 0, #536adf 100%);;
+  height: 100vh;
+  
+}
