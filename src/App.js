@@ -1,28 +1,5 @@
-import React from "react";
-import NavBar from './component/NavBar';
+import React from 'react';
 
+const App = () => <h1>Minha aplicação</h1>
 
-class  App extends React.Component{
-  render(){
-    return(
-      <div>
-    <NavBar />
-
-
-    </div>
-
-
-
-
-    );
-  }
-}
-
-
-
-
-
-
-
-
-export default App;
+export default App

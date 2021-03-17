@@ -11,7 +11,7 @@ class NavBar extends Component {
         logo="./logo.svg"
         menu={[
           { name: "HOME", to: "/" },
-          { name: "CURRiCULO", to: "/curriculo" },
+          { name: "CURRiCULO", to: "/Curriculo" },
           { name: "BLOG, EM BREVE!", to: "/blog" },
           { name: "PORTFOLIO", to: "/porfolio" },
         ]}
