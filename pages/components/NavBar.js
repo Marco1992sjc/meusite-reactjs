@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
-
-import { Link } from 'next/link'
+import Link from 'next/link'
 import { FaLinkedin,FaFacebookF,FaWhatsapp,FaEnvelope } from "react-icons/fa";
 
 export default function Navbar() {
@@ -28,10 +27,10 @@ export default function Navbar() {
       <div className={click ? "nav-links active" : "nav-links"}>
         <ul>
           <li>
-            <a href="./">Home</a>
+            <Link href="./">Home</Link>
           </li>
           <li>
-            <a href="/curriculo">Currículo</a>
+            <Link href="/curriculo">Currículo</Link>
           </li>
           <li>
             <a href="/blog" className="disabledlink">Blog</a>
