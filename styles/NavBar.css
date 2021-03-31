@@ -65,13 +65,19 @@ bottom: 55px;
 color: #fff;
 display: inline-flex;
  flex-wrap: wrap;
+ 
 }
 
 
 .socialicon-item{
-
+ 
 margin-left: 16px;
 
+}
+.socialicon-item:hover{
+
+  color: #10bbff;
+  
 }
 
 
@@ -149,8 +155,3 @@ right: 110px;
 
 }}
 
-.socialicon-item:hover{
-
-  color:  #10bbff;
-  
-}

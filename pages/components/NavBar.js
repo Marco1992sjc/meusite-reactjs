@@ -1,14 +1,24 @@
 import React, { useState } from "react";
-
 import Link from 'next/link'
-import { FaLinkedin,FaFacebookF,FaWhatsapp,FaEnvelope } from "react-icons/fa";
+import { FaLinkedinIn,FaFacebookF,FaWhatsapp,FaEnvelope } from "react-icons/fa";
+
+
+
+
+
+
+
 
 export default function Navbar() {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
 
+ 
+
+
   return (
+   
     <nav className="navbar">
       <div className="nav-logo">
         <img
@@ -40,8 +50,8 @@ export default function Navbar() {
           </li>
         </ul>
         <div className="socialicons">
-<a href="https://www.linkedin.com/in/marco-aur%C3%A9lio-de-moraes-oliveira-46b013206/" rel="noreferrer" target="_blank" title="LinkedIn">
-<FaLinkedin className="socialicon-item" size="2em"/></a>
+        <a href="https://www.linkedin.com/in/marco-aur%C3%A9lio-de-moraes-oliveira-46b013206/" rel="noreferrer" target="_blank" title="LinkedIn">
+<FaLinkedinIn className="socialicon-item" size="2em"/></a>
 
 <a href="https://www.facebook.com/marcoaurelio.moraes.31" rel="noreferrer" target="_blank" title="FaceBook">
 <FaFacebookF className="socialicon-item" size="2em"/> </a>
@@ -54,19 +64,16 @@ export default function Navbar() {
 </div>
 
 
-
-
-
       </div>
 
-
+    
     </nav>
-    
-
-
-    
+ 
+ 
 
 
 
 );
 }
+
+
