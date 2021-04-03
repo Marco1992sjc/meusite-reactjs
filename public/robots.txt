@@ -1,0 +1,4 @@
+User-agent: *
+Allow /*.html$
+
+sitemap: https://marcodev.vercel.app/sitemap.xml
