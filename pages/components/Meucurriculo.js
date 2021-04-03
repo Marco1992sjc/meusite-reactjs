@@ -72,6 +72,14 @@ return(
               <h6 className="w3-text-teal"><i className="fa fa-calendar fa-fw w3-margin-right" />2018 - 2018</h6>
               <p>Ensino Médio</p>
               <hr />
+              <h2 className="w3-text-grey w3-padding-16"><i className="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal" />Cursos Complementares</h2>
+              <h5 className="w3-opacity"><b>Microcamp Tecnologia</b></h5>
+              <h6 className="w3-text-teal"><i className="fa fa-calendar fa-fw w3-margin-right" /> 27/08/2007- 23/04/2009 (216hrs)</h6>
+              <p>Pacote Office/windows/front page</p>
+              <h6 className="w3-text-teal"><i className="fa fa-calendar fa-fw w3-margin-right" /> 20/02/2008- 19/03/2008</h6>
+              <p>Hardware </p>
+              <h6 className="w3-text-teal"><i className="fa fa-calendar fa-fw w3-margin-right" /> 15/09/2007- 25/10/2007 </h6>
+              <p>Digitação Eletrônica</p>
             </div>
           </div>
         </div>
