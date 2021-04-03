@@ -84,7 +84,7 @@
   padding: 0;
   
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
 .navbar .nav-links li {
   list-style: none;
   padding: 1rem;
