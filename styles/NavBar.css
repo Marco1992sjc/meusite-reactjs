@@ -7,12 +7,12 @@
 }
 
 
-@media only screen and (min-width: 1155px) {
+@media only screen and (min-width: 769px) {
   .navbar {
   top: 5rem;
-    left: 10rem;
+  margin: 0 auto;
     position: relative;
-    width: 1200px;
+    width: 1000px;
     height: 100px;
     background: linear-gradient(0deg, #000, #272727);
   
@@ -22,7 +22,11 @@
     align-items: center;
     padding: 0 0.5rem;
     
-  
+
+   
+    float: none;
+   
+    
     
   }
   
@@ -58,12 +62,14 @@
     filter: blur(50px);
   }
   
+}
   
-  }
 
 .navbar .nav-logo {
   padding: 8px;
   margin-bottom: 25px;
+  float: none;
+  vertical-align: top;
 }
 
 .navbar .nav-logo .logo {
@@ -78,16 +84,17 @@
   padding: 0;
   
 }
-@media only screen and (min-width: 1155px) {
+@media only screen and (min-width: 768px) {
 .navbar .nav-links li {
   list-style: none;
   padding: 1rem;
 display: flex;
-right: 20rem;
+right: 15rem;
 margin-top: 5%;
-
 display: inline-flex;
 position: relative;
+
+
 }
 
 .navbar .nav-links li a {
@@ -139,11 +146,12 @@ margin-left: 16px;
   z-index: 2;
 }
 
-@media only screen and (max-width: 1155px) {
+@media only screen and (max-width: 768px) {
   .navbar {
     padding: 0;
     flex-direction: column;
     align-items: flex-start;
+   
   }
 
   .navbar .nav-toggle-btn {
