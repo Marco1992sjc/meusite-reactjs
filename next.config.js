@@ -12,6 +12,11 @@ module.exports = {
   module.exports = {
     includeDoctype: true,
 }
+module.exports = {
+  i18n: {
+    localeDetection: false,
+  },
+}
 
   module.exports = {
     future: {
