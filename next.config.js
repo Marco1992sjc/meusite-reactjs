@@ -10,10 +10,20 @@ module.exports = {
   };
 
   module.exports = {
+    includeDoctype: true,
+}
+
+  module.exports = {
     future: {
       webpack5: true
+
+    
     }
-  }
+    }
+  
+
+
+
 
 
   

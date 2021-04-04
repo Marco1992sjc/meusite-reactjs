@@ -1,13 +1,19 @@
 import React from "react";
 import NavBar from './components/NavBar';
 import { NextSeo } from 'next-seo';
-
+import Head from 'next/head'
 
 
   export default  function App(){
     return(
 <>
-
+<Head>
+       
+        <title>Marco Aurélio Desenvolvedor</title>
+        <meta property="og:title" content="My page title" key="title" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+       
+      </Head>
 
 <NextSeo
       title="Marco Aurélio Desenvolvedor"
