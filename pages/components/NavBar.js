@@ -21,7 +21,7 @@ export default function Navbar() {
    
     <nav className="navbar">
       <div className="nav-logo">
-        <img
+        <img className="logo"
           src="./logo.svg"
           alt="Logo"
           className="logo"
@@ -46,7 +46,7 @@ export default function Navbar() {
             <a href="/blog" className="disabledlink">Blog</a>
           </li>
           <li>
-            <a href="/portfolio" className="disabledlink">Portfolio</a>
+            <Link href="/portfolio">Portfolio</Link>
           </li>
         </ul>
         <div className="socialicons">

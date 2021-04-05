@@ -1,7 +1,9 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/NavBar.css'
 import '../styles/globals.css'
 import '../styles/style-curriculo.css'
-import '../styles/NavBar.css'
 
+import '../styles/meuportfolio.css'
 
 
 

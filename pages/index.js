@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from './components/NavBar';
 import { NextSeo } from 'next-seo';
 import Head from 'next/head'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
   export default  function App(){
     return(
