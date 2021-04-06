@@ -1,25 +1,8 @@
-.carousel{
+.card{
 
+    margin: 0 auto;
+top: 10rem;
 
-top: 12rem;
-width: 800px;
-height: 500px;
-  
-margin: 0 auto;
+box-shadow: 0 0 30px rgb(177, 176, 180);
 
 }
-
-.carouselc{
-
-    color: #000;
-
-}
-
-.d-block{
-
-    text-decoration: aqua;
-
-
-}
-
-

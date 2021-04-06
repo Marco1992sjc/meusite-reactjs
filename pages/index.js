@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from './components/NavBar';
 import { NextSeo } from 'next-seo';
 import Head from 'next/head'
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
   export default  function App(){
     return(
@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 <Head>
        
         <title>Marco Aurélio Desenvolvedor</title>
-        <meta property="og:title" content="My page title" key="title" />
+        <meta property="og:title" content="Marco Aurélio desenvolvedor em São José dos Campos" key="title" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
        
       </Head>

@@ -58,8 +58,17 @@ function Curriculo() {
 
 
 
+<NextSeo
+      title="Portfolio"
+      description="portfolio de Marco Aurélio"
+      canonical="https://marcodev.vercel.app/portfolio"
+      openGraph={{
+        url: 'https://marcodev.vercel.app/portfolio',
+        title: 'Marco Aurélio de Moraes Oliveira',
+        description: 'Desenvolvedor em São José dos Campos',
+      }}
 
-
+/>
 
 
 export default Curriculo;
