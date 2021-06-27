@@ -34,8 +34,9 @@ function Meuportfolio(){
   <iframe width="270" height="270" src="https://www.youtube.com/embed/wtlzPD5VS0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <Card.Title><h1>YoutubeMusic Desktop</h1></Card.Title>
     <Card.Text>
-      <a href="https://drive.google.com/file/d/1R7ksiLRXDmfeS4jZCFLyrVYSgMxSJvx8/view?usp=sharing"><u>(Download)</u></a> Player do youtube music desenvolvido no framework electronjs para desktop, aplicativo bem símples que ao tempo irei atualizando conforme aprendo no framework
+      <a href="https://drive.google.com/file/d/1R7ksiLRXDmfeS4jZCFLyrVYSgMxSJvx8/view?usp=sharing" target="_blank"><u>(Download)</u></a> Player do youtube music desenvolvido no framework electronjs para desktop, aplicativo bem símples que ao tempo irei atualizando conforme aprendo no framework
       (inlusive se tornou meu player padrão rs, devido a google não disponibilizar aplicativo para windows)
+      <a href="https://github.com/Marco1992sjc/youtubemusic-app" target="_blank"><u>Link do GitHub</u></a>
     </Card.Text>
 
   </Card.Body>

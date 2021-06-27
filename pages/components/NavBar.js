@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Link from 'next/link'
-import { FaLinkedinIn,FaFacebookF,FaWhatsapp,FaEnvelope } from "react-icons/fa";
-
+import { FaLinkedinIn,FaFacebookF,FaWhatsapp,FaEnvelope} from "react-icons/fa";
+import {AiFillGithub } from "react-icons/ai";
 
 
 
@@ -53,14 +53,15 @@ export default function Navbar() {
         <a href="https://www.linkedin.com/in/marco-aur%C3%A9lio-de-moraes-oliveira-46b013206/" rel="noreferrer" target="_blank" title="LinkedIn">
 <FaLinkedinIn className="socialicon-item" size="2em"/></a>
 
-<a href="https://www.facebook.com/marcoaurelio.moraes.31" rel="noreferrer" target="_blank" title="FaceBook">
-<FaFacebookF className="socialicon-item" size="2em"/> </a>
 
 <a href="https://api.whatsapp.com/send?phone=5512982138934&text=Ol%C3%A1%2C%20tudo%20bem%3F" rel="noreferrer" target="_blank" title="WhatsApp">
 <FaWhatsapp className="socialicon-item" size="2em" /> </a>
 
 <a href="mailto:marco1992sjc@gmail.com" rel="noreferrer" target="_blank" title="E-mail">
 <FaEnvelope className="socialicon-item" size="2em" /> </a>
+
+<a href="https://github.com/Marco1992sjc" rel="noreferrer" target="_blank" title="Meu Git">
+<AiFillGithub className="socialicon-item" size="2em" /> </a>
 </div>
 
 

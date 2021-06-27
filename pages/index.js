@@ -4,6 +4,7 @@ import { NextSeo } from 'next-seo';
 import Head from 'next/head'
 
 
+
   export default  function App(){
     return(
 <>
@@ -48,6 +49,9 @@ import Head from 'next/head'
 
 
 <NavBar />
+
+
+
 </>
 
 
