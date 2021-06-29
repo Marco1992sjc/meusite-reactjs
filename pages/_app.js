@@ -3,7 +3,7 @@ import '../styles/NavBar.css'
 import '../styles/globals.css'
 import '../styles/style-curriculo.css'
 import '../styles/meuportfolio.css'
-
+import '../styles/progressbar.css'
 
 
 

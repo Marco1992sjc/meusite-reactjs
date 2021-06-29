@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from './components/NavBar';
 import { NextSeo } from 'next-seo';
 import Head from 'next/head'
-
+import Progressbar from "./components/Progressbar";
 
 
   export default  function App(){
@@ -50,7 +50,7 @@ import Head from 'next/head'
 
 <NavBar />
 
-
+<Progressbar />
 
 </>
 
