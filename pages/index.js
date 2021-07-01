@@ -3,7 +3,7 @@ import NavBar from './components/NavBar';
 import { NextSeo } from 'next-seo';
 import Head from 'next/head'
 import Progressbar from "./components/Progressbar";
-
+import Indeximage from "./components/Indeximage";
 
   export default  function App(){
     return(
@@ -50,7 +50,12 @@ import Progressbar from "./components/Progressbar";
 
 <NavBar />
 
+
+
+<Indeximage />
+
 <Progressbar />
+
 
 </>
 
