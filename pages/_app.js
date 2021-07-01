@@ -6,12 +6,28 @@ import '../styles/meuportfolio.css'
 import '../styles/progressbar.css'
 import '../styles/indeximage.scss'
 
+import '../styles/nprogress.css'
 
 
 
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+
+
+import dynamic from 'next/dynamic'
+
+const TopProgressBar = dynamic(
+  () => {
+    return import("./components/TopProgressBar");
+  },
+  { ssr: false },
+);
+
+export default function MyApp({ Component, pageProps }) {
+  return <>
+    <TopProgressBar />
+    <Component {...pageProps} />
+  </>
 }
 
-export default MyApp;
+
+

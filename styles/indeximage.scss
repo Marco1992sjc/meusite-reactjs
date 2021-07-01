@@ -48,10 +48,10 @@ margin-left: auto;
       transform:scaleX(0.4);
       transition:ease-in-out .4s;
       border-radius:120px;
-      transform-origin:right;
+      transform-origin: initial;
       opacity:0;
-      
       z-index:-1;
+     
     }
     .container1__info{
       position:relative;
