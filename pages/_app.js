@@ -8,6 +8,8 @@ import '../styles/indeximage.scss'
 
 import '../styles/nprogress.css'
 
+import '../styles/cardskills.css'
+
 
 
 

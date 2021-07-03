@@ -14,6 +14,7 @@ function load() {
   state = "loading";
 
   timer = setTimeout(function () {
+      
     NProgress.start();
   }, delay); // only show progress bar if it takes longer than the delay
 }
@@ -54,7 +55,7 @@ window.fetch = async function (...args) {
   }
 };
 
-export default function () {
+export default function Main () {
   return null;
 }
 

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
 .disabledlink{
   color: currentColor;
   cursor: not-allowed;
@@ -103,12 +106,14 @@ position: relative;
 .navbar .nav-links li a {
   text-decoration: none;
   color: #fff;
+  font-family: 'Roboto', sans-serif;
   font-size: 36px;
-  font-family: sans-serif;
+ 
 }
 .navbar .nav-links li a:hover{
   text-shadow: 0 0 20px #10bbff;
  text-decoration: underline;
+ font-family: 'Roboto', sans-serif;
 }
 
 .socialicons{
@@ -192,6 +197,7 @@ margin-left: 16px;
     padding: 0.4rem 0;
     color: #fff;
     font-size: large;
+    font-family: 'Roboto', sans-serif;
   }
 
 .socialicons{

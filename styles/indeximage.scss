@@ -106,6 +106,9 @@ margin-left: auto;
 @media only screen and (min-width: 769px) {
 
 
+
+  
+
   .container1{
     display:flex;
     
@@ -116,18 +119,23 @@ margin-left: auto;
     
     overflow:hidden;
   
+
+
     &__image{
+
   margin-top: 9rem;
   margin-left: 50%;
+
   
+
       position:relative;
       display:flex;
-      
+
       flex-direction:column;
       justify-content:center;
       width:250px;
       height:250px;
-      
+
       border-radius:50%;
       background-image:url('https://marcodev.vercel.app/marco.jpg');
       background-size:cover;
