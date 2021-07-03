@@ -12,6 +12,7 @@
 
 @media only screen and (min-width: 769px) {
   .navbar {
+    
   top: 4rem;
   margin: 0 auto;
     position: relative;
@@ -89,6 +90,7 @@ bottom: 20px;
   margin: 0;
   padding: 0;
   
+  
 }
 @media only screen and (min-width: 769px) {
 .navbar .nav-links li {
@@ -163,6 +165,7 @@ margin-left: 16px;
   }
 
   .navbar .nav-toggle-btn {
+    
     cursor: pointer;
     display: block;
   }
@@ -172,7 +175,7 @@ margin-left: 16px;
     display: flex;
     position: fixed;
     top: -100%;
-    opacity: 0;
+    
     transition: all 0.5s;
     margin: 4.5rem 0;
     z-index: 1;
@@ -185,19 +188,28 @@ margin-left: 16px;
     transition: all 0.5s;
     align-content: center;
     height: 200px;
+    
   }
 
   .navbar .nav-links ul {
     flex-direction: column;
     width: 100%;
+   
+    
   }
+
+
+
 
   .navbar .nav-links li {
     text-align: center;
     padding: 0.4rem 0;
-    color: #fff;
     font-size: large;
     font-family: 'Roboto', sans-serif;
+    opacity: 1;
+    color: #fff;
+    
+    
   }
 
 .socialicons{
@@ -209,11 +221,19 @@ margin-left: 16px;
   top: 155px;
 right: 110px;
 
+
 }
 .socialicon-item{
   
   margin-left: 12px;
 
+}
 
-}}
+
+
+
+
+}
+
+
 

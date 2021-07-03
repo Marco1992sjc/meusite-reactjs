@@ -34,10 +34,10 @@ export default function Navbar() {
       <img src='/hamburguer.svg' alt="" role="button" draggable="false" />
       </button>
 
-      <div className={click ? "nav-links active" : "nav-links"}>
-        <ul>
+      <div className={click ? "nav-links active" : "nav-links"} >
+        <ul >
           <li>
-            <Link href="./">Home</Link>
+            <Link href="./" >Home</Link>
           </li>
           <li>
             <Link href="/curriculo">Currículo</Link>
