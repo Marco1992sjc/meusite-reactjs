@@ -8,8 +8,26 @@
         -webkit-animation: 0;
       }
     
+
+
+
+.card1 .face1{
+
+  
+  background: teal;
+  
+
+}
+
+.containercard{
+  margin-top: 220px;
+}
+
+
     .containercard .card1{
-    
+      
+     
+      
         animation: breathing 5s ease-out infinite;
         -webkit-font-smoothing: antialiased;
         

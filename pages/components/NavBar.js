@@ -45,9 +45,7 @@ export default function Navbar() {
           <li>
             <a href="/blog" className="disabledlink">Blog</a>
           </li>
-          <li>
-            <Link href="/portfolio">Portfolio</Link>
-          </li>
+        
         </ul>
         <div className="socialicons">
         <a href="https://www.linkedin.com/in/marco-aur%C3%A9lio-de-moraes-oliveira-46b013206/" rel="noreferrer" target="_blank" title="LinkedIn">

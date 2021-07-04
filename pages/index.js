@@ -3,6 +3,11 @@ import NavBar from './components/NavBar';
 import { NextSeo } from 'next-seo';
 import Head from 'next/head'
 import Cardskills from "./components/Cardskills";
+import Meuportfolio from "./components/Meuportfolio";
+
+
+
+
   export default  function App(){
     return(
 <>
@@ -48,6 +53,8 @@ import Cardskills from "./components/Cardskills";
 
 <NavBar />
 
+
+<Meuportfolio />
 
 <Cardskills />
 
