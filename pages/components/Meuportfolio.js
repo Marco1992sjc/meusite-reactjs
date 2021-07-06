@@ -22,7 +22,7 @@ function Meuportfolio(){
       
       <Card.Title><h1>React News</h1></Card.Title>
       <Card.Text>
-      Buscador de notícias desenvolvido em Nextjs+Semantic ui
+      Buscador de notícias utilizando o Google News API desenvolvido em NextJS estilizado com Semantic UI
       </Card.Text>
     </Card.Body>
   
