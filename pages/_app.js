@@ -11,10 +11,6 @@ import '../styles/cardskills.css'
 
 
 
-
-
-
-
 export default function MyApp({ Component, pageProps }) {
   return <>
     

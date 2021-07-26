@@ -2,6 +2,9 @@
 import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup'
 import CardDeck from 'react-bootstrap/CardDeck'
+import { Button } from 'react-bootstrap'
+import { Carousel } from 'react-bootstrap'
+
 
 
 function Meuportfolio(){
@@ -40,6 +43,57 @@ function Meuportfolio(){
     </Card.Body>
     
   </Card>
+
+  <Card>
+  
+  <Carousel>
+  <Carousel.Item>
+  <a href="/economize.jpg" target="_blank"><img
+      className="d-block w-100"
+      src="/economize.jpg"
+      alt="First slide"
+      height="220"
+      
+    /></a>
+    
+  </Carousel.Item>
+  <Carousel.Item>
+  <a href="/economizeadmin1.jpg" target="_blank"> <img
+      className="d-block w-100"
+      src="economizeadmin1.jpg"
+      alt="Second slide"
+      height="220"
+    /></a>
+
+  </Carousel.Item>
+  <Carousel.Item>
+  <a href="/economizeadmin2.jpg" target="_blank"><img
+      className="d-block w-100"
+      src="economizeadmin2.jpg"
+      alt="Third slide"
+      height="220"
+    /></a>
+
+  </Carousel.Item>
+</Carousel>
+
+
+  
+    
+    
+    <Card.Body>
+      
+      <Card.Title><h1>Economize Site de Cupons</h1></Card.Title>
+      <Card.Text>
+      economize.sjc.br Site de cupons de desconto e ofertas de afiliados. Desenvolvido em php, possui Dashboard Admin banco de dados,etc...
+      </Card.Text>
+      <Button variant="primary" href="https://economize.sjc.br" target="_blank">Economize</Button>
+    </Card.Body>
+  
+  </Card>
+ 
+
+
 
 </CardDeck>
 
