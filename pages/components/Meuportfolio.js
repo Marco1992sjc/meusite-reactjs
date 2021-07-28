@@ -7,6 +7,8 @@ import { Carousel } from 'react-bootstrap'
 
 
 
+
+
 function Meuportfolio(){
   return(
 
@@ -85,23 +87,26 @@ function Meuportfolio(){
       
       <Card.Title><h1>Economize Site de Cupons</h1></Card.Title>
       <Card.Text>
-      economize.sjc.br Site de cupons de desconto e ofertas de afiliados. Desenvolvido em php, possui Dashboard Admin banco de dados,etc...
+      economize.sjc.br Site de cupons de desconto e ofertas de afiliados. Possui Dashboard Admin, banco de dados,etc...
       </Card.Text>
-      <Button variant="primary" href="https://economize.sjc.br" target="_blank">Economize</Button>
+      <Button className="button001" variant="primary" href="https://economize.sjc.br" target="_blank">Economize</Button>
     </Card.Body>
   
   </Card>
  
 
 
-
 </CardDeck>
+
+
 
 
 </>
 
   )
 }
+
+
 
 
 export default Meuportfolio;

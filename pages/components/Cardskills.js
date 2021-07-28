@@ -22,8 +22,8 @@ export default function Cardskills(){
     <div className="face face2">
       <div className="content">
           
-      <ProgressBar now={80} label={`${now}%`} max={100} />
-        <p>  atualizando atualizando atualizando atualizando atualizando atualizando atualizando atualizando</p>
+     
+        <p>  ...</p>
         
       </div>
     </div>
@@ -36,8 +36,8 @@ export default function Cardskills(){
     </div>
     <div className="face face2">
       <div className="content">
-      <ProgressBar now={60} label={`${now2}%`} max={100} />
-        <p> atualizando atualizando atualizando atualizando atualizando atualizando atualizando atualizando atualizando atualizando </p>
+      
+        <p> ... </p>
         
       </div>
     </div>
@@ -51,8 +51,8 @@ export default function Cardskills(){
     </div>
     <div className="face face2">
       <div className="content">
-      <ProgressBar now={40} label={`${now3}%`} max={100} />
-        <p>  atualizando atualizando atualizando atualizando atualizando atualizando atualizando atualizando</p>
+      
+        <p>  ...</p>
         
       </div>
     </div>

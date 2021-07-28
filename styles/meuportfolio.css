@@ -2,11 +2,24 @@
 
     margin: 0 auto;
 top: 10rem;
-box-shadow: 0 0 90px teal;
+box-shadow: 0 0 30px teal;
 
 }
 
+.button001{
 
+    transition: transform .4s; 
+}
+
+
+.button001:hover{
+
+
+    transform: scale(1.35);
+
+
+    transition: transform .4s;
+}
 
 
 .carddeck{
